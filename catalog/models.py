@@ -3,7 +3,7 @@ from django.db import models
 from django.urls import reverse
 from django.utils.translation import gettext_lazy as _
 
-# Create your models here.
+
 
 
 class Genre(models.Model):
@@ -28,6 +28,12 @@ class Book(models.Model):
                             help_text=_('13 Character <a href="https://www.isbn-international.org/content/what-isbn">ISBN number</a>'))
     genre = models.ManyToManyField(
         Genre, help_text=_('Select a genre for this book'))
+
+    def display_genre(self):
+        """Create a string for the Genre. This is required to display genre in Admin."""
+        return ', '.join(genre.name for genre in self.genre.all()[:3])
+
+    display_genre.short_description = 'Genre'
 
     def __str__(self):
         """String for representing the Model object."""

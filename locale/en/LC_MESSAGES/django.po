@@ -37,10 +37,10 @@ msgstr ""
 msgid "Select a genre for this book"
 msgstr "Select a genre for this book"
 
-#: .\catalog\models.py:44
+#: .\catalog\models.py:50
 msgid "Unique ID for this particular bookacross whole library"
 msgstr "Unique ID for this particular bookacross whole library"
 
-#: .\catalog\models.py:55
+#: .\catalog\models.py:61
 msgid "Book availability"
 msgstr "Book availability"

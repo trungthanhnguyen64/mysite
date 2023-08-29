@@ -26,21 +26,21 @@ msgid "Enter a brief description of the book"
 msgstr "Nhập mô tả ngắn cho sách"
 
 #: .\catalog\models.py:28
-msgid ""
-"13 Character <a href=\"https://www.isbn-international.org/content/what-isbn"
-"\">ISBN number</a>"
-msgstr ""
-"13 ký tự <a href=\"https://www.isbn-international.org/content/what-isbn\">số "
-"IBSN</a>"
+msgid "13 Character <a href=\"https://www.isbn-international.org/content/what-isbn\">ISBN number</a>"
+msgstr "13 ký tự <a href=\"https://www.isbn-international.org/content/what-isbn\">số IBSN</a>"
+
 
 #: .\catalog\models.py:30
 msgid "Select a genre for this book"
 msgstr "Chọn thể loại cho sách này"
 
-#: .\catalog\models.py:44
+
+#: .\catalog\models.py:50
 msgid "Unique ID for this particular bookacross whole library"
 msgstr "Số định danh cho sách được dùng cho khắp thư viện"
 
-#: .\catalog\models.py:55
+
+#: .\catalog\models.py:61
 msgid "Book availability"
 msgstr "Sách có sẵn"
+
