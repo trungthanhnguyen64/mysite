@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-23 21:19+0700\n"
+"POT-Creation-Date: 2023-08-25 00:02+0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,28 +19,74 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 #: .\catalog\models.py:12
 msgid "Enter a book genre (e.g.Science Fiction)"
-msgstr "Enter a book genre (e.g.Science Fiction)"
+msgstr ""
 
 #: .\catalog\models.py:26
 msgid "Enter a brief description of the book"
-msgstr "Enter a brief description of the book"
+msgstr ""
 
 #: .\catalog\models.py:28
 msgid ""
 "13 Character <a href=\"https://www.isbn-international.org/content/what-isbn"
 "\">ISBN number</a>"
 msgstr ""
-"13 Character <a href=\"https://www.isbn-international.org/content/what-isbn"
-"\">ISBN number</a>"
 
 #: .\catalog\models.py:30
 msgid "Select a genre for this book"
-msgstr "Select a genre for this book"
+msgstr ""
 
-#: .\catalog\models.py:50
+#: .\catalog\models.py:56
 msgid "Unique ID for this particular bookacross whole library"
-msgstr "Unique ID for this particular bookacross whole library"
+msgstr ""
 
-#: .\catalog\models.py:61
+#: .\catalog\models.py:67
 msgid "Book availability"
-msgstr "Book availability"
+msgstr ""
+
+#: .\catalog\templates\base_generic.html:22
+msgid "Language"
+msgstr ""
+
+#: .\catalog\templates\index.html:5
+msgid "Local Library Home"
+msgstr ""
+
+#: .\catalog\templates\index.html:7
+msgid "Welcome to LocalLibrary, a website developed by"
+msgstr ""
+
+#: .\catalog\templates\index.html:8
+msgid "Mozilla Developer Network"
+msgstr ""
+
+#: .\catalog\templates\index.html:10
+msgid "Dynamic content"
+msgstr ""
+
+#: .\catalog\templates\index.html:11
+msgid "The library has the following record counts:"
+msgstr ""
+
+#: .\catalog\templates\index.html:13
+msgid "Books"
+msgstr ""
+
+#: .\catalog\templates\index.html:14
+msgid "Copies"
+msgstr ""
+
+#: .\catalog\templates\index.html:15
+msgid "Copies available"
+msgstr ""
+
+#: .\catalog\templates\index.html:16
+msgid "Authors"
+msgstr ""
+
+#: .\locallibrary\settings.py:119
+msgid "English"
+msgstr ""
+
+#: .\locallibrary\settings.py:120
+msgid "Vietnamese"
+msgstr ""

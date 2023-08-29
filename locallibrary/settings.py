@@ -42,9 +42,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    # Add our new application'catalog.apps.CatalogConfig',
     'catalog.apps.CatalogConfig',
-    ]
+    'django_extensions',
+]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -116,14 +116,13 @@ AUTH_PASSWORD_VALIDATORS = [
 # https://docs.djangoproject.com/en/4.2/topics/i18n/
 
 LANGUAGES = [
-    ('en', _('English')),
     ('vi', _('Vietnamese')),
+   
 ]
 
 LANGUAGE_CODE = 'vi'
 
-TIME_ZONE = 'Asia/Ho_Chi_Minh'
-
+TIME_ZONE = 'UTC'
 USE_I18N = True
 USE_L10N = True
 USE_TZ = True
@@ -138,7 +137,4 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-
-#Path to the translation file
-LOCALE_PATHS = [os.path.join(BASE_DIR, 'locale')]
-
+LOCALE_PATHS = (BASE_DIR / 'locale/', )
