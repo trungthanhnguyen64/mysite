@@ -122,10 +122,10 @@ LANGUAGES = [
 
 LANGUAGE_CODE = 'vi'
 
-TIME_ZONE = 'Europe/London'
+TIME_ZONE = 'Asia/Ho_Chi_Minh'
 
 USE_I18N = True
-
+USE_L10N = True
 USE_TZ = True
 
 
@@ -140,5 +140,5 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 #Path to the translation file
-LOCALE_PATHS = (BASE_DIR / 'locale/', )
+LOCALE_PATHS = [os.path.join(BASE_DIR, 'locale')]
 
