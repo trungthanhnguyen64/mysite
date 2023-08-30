@@ -15,4 +15,13 @@
         <li><strong>{% translate "Copies available" %}:</strong> {{ num_instances_available }}</li>
         <li><strong>{% translate "Authors" %}:</strong> {{ num_authors }}</li>
     </ul>
+    <p>
+        {% translate "You have visited this page:" %}
+        {% if num_visits == 1 %}
+            {{ num_visits }} {% translate "time" %}
+        {% else %}
+            {{ num_visits }} {% translate "times" %}
+        {% endif %}
+    </p>
+ 
 {% endblock %}
