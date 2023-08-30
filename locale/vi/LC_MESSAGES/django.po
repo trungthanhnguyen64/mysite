@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-28 14:19+0700\n"
+"POT-Creation-Date: 2023-08-29 08:51+0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -38,11 +38,11 @@ msgstr ""
 msgid "Select a genre for this book"
 msgstr "Chọn thể loại cho cuốn sách này"
 
-#: .\catalog\models.py:62
+#: .\catalog\models.py:68
 msgid "Unique ID for this particular bookacross whole library"
 msgstr "ID duy nhất cho cuốn sách cụ thể này trên toàn bộ thư viện"
 
-#: .\catalog\models.py:73
+#: .\catalog\models.py:79
 msgid "Book availability"
 msgstr "Sách có sẵn"
 
@@ -161,6 +161,18 @@ msgstr "Bản sao có sẵn"
 #: .\catalog\templates\index.html:16
 msgid "Authors"
 msgstr "Tác giả"
+
+#: .\catalog\templates\index.html:19
+msgid "You have visited this page:"
+msgstr "Bạn đã ghé thăm trang này: "
+
+#: .\catalog\templates\index.html:21
+msgid "time"
+msgstr "lần"
+
+#: .\catalog\templates\index.html:23
+msgid "times"
+msgstr "lần"
 
 #: .\locallibrary\settings.py:119
 msgid "Vietnamese"
