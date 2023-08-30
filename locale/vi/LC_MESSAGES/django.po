@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-23 21:09+0700\n"
+"POT-Creation-Date: 2023-08-25 00:02+0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,28 +19,76 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 #: .\catalog\models.py:12
 msgid "Enter a book genre (e.g.Science Fiction)"
-msgstr "Nhập thể loại sách (ví dụ: Khoa học viễn tưởng)"
+msgstr "Nhập thể loại sách (ví dụ Khoa học viễn tưởng)"
 
 #: .\catalog\models.py:26
 msgid "Enter a brief description of the book"
-msgstr "Nhập mô tả ngắn cho sách"
+msgstr "Nhập mô tả ngắn gọn cho sách"
 
 #: .\catalog\models.py:28
-msgid "13 Character <a href=\"https://www.isbn-international.org/content/what-isbn\">ISBN number</a>"
-msgstr "13 ký tự <a href=\"https://www.isbn-international.org/content/what-isbn\">số IBSN</a>"
-
+msgid ""
+"13 Character <a href=\"https://www.isbn-international.org/content/what-isbn"
+"\">ISBN number</a>"
+msgstr ""
+"13 ký tự <a href=\"https://www.isbn-international.org/content/what-isbn\">số "
+"IBSN</a>"
 
 #: .\catalog\models.py:30
 msgid "Select a genre for this book"
-msgstr "Chọn thể loại cho sách này"
+msgstr "Chọn thể loại cho cuốn sách này"
 
-
-#: .\catalog\models.py:50
+#: .\catalog\models.py:56
 msgid "Unique ID for this particular bookacross whole library"
-msgstr "Số định danh cho sách được dùng cho khắp thư viện"
+msgstr "ID duy nhất cho cuốn sách cụ thể này trên toàn bộ thư viện"
 
-
-#: .\catalog\models.py:61
+#: .\catalog\models.py:67
 msgid "Book availability"
 msgstr "Sách có sẵn"
 
+#: .\catalog\templates\base_generic.html:22
+msgid "Language"
+msgstr "Ngôn Ngữ"
+
+#: .\catalog\templates\index.html:5
+msgid "Local Library Home"
+msgstr "Trang chủ thư viện địa phương"
+
+#: .\catalog\templates\index.html:7
+msgid "Welcome to LocalLibrary, a website developed by"
+msgstr "Chào mừng bạn đến với LocalLibrary, một trang web được phát triển bởi"
+
+#: .\catalog\templates\index.html:8
+msgid "Mozilla Developer Network"
+msgstr "Lê Huy"
+
+#: .\catalog\templates\index.html:10
+msgid "Dynamic content"
+msgstr "Nội dung động"
+
+#: .\catalog\templates\index.html:11
+msgid "The library has the following record counts:"
+msgstr "Thư viện có số lượng bản ghi sau:"
+
+#: .\catalog\templates\index.html:13
+msgid "Books"
+msgstr "Sách"
+
+#: .\catalog\templates\index.html:14
+msgid "Copies"
+msgstr "Bản sao"
+
+#: .\catalog\templates\index.html:15
+msgid "Copies available"
+msgstr "Bản sao có sẵn"
+
+#: .\catalog\templates\index.html:16
+msgid "Authors"
+msgstr "Tác giả"
+
+#: .\locallibrary\settings.py:119
+msgid "English"
+msgstr "Tiếng Anh"
+
+#: .\locallibrary\settings.py:120
+msgid "Vietnamese"
+msgstr "Tiếng Việt"
