@@ -117,7 +117,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGES = [
     ('vi', _('Vietnamese')),
-   
+    ('en', _('English')),
 ]
 
 LANGUAGE_CODE = 'vi'

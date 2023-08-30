@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-25 00:02+0700\n"
+"POT-Creation-Date: 2023-08-28 14:19+0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,6 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
 #: .\catalog\models.py:12
 msgid "Enter a book genre (e.g.Science Fiction)"
 msgstr ""
@@ -35,16 +36,100 @@ msgstr ""
 msgid "Select a genre for this book"
 msgstr ""
 
-#: .\catalog\models.py:56
+#: .\catalog\models.py:62
 msgid "Unique ID for this particular bookacross whole library"
 msgstr ""
 
-#: .\catalog\models.py:67
+#: .\catalog\models.py:73
 msgid "Book availability"
 msgstr ""
 
-#: .\catalog\templates\base_generic.html:22
+#: .\catalog\templates\base_generic.html:5
+msgid "Local Library"
+msgstr ""
+
+#: .\catalog\templates\base_generic.html:20
+#: .\catalog\templates\catalog\book_detail.html:9
 msgid "Language"
+msgstr ""
+
+#: .\catalog\templates\base_generic.html:38
+msgid "Home"
+msgstr ""
+
+#: .\catalog\templates\base_generic.html:39
+msgid "All books"
+msgstr ""
+
+#: .\catalog\templates\base_generic.html:40
+msgid "All authors"
+msgstr ""
+
+#: .\catalog\templates\catalog\author_detail.html:5
+#: .\catalog\templates\catalog\book_detail.html:6
+msgid "Author"
+msgstr ""
+
+#: .\catalog\templates\catalog\author_detail.html:7
+msgid "Date of Birth"
+msgstr ""
+
+#: .\catalog\templates\catalog\author_detail.html:9
+msgid "Date of Death"
+msgstr ""
+
+#: .\catalog\templates\catalog\author_detail.html:12
+#: .\catalog\templates\index.html:13
+msgid "Books"
+msgstr ""
+
+#: .\catalog\templates\catalog\author_list.html:5
+msgid "Author List"
+msgstr ""
+
+#: .\catalog\templates\catalog\author_list.html:13
+msgid "There are no authors in the library."
+msgstr ""
+
+#: .\catalog\templates\catalog\book_detail.html:5
+msgid "Title"
+msgstr ""
+
+#: .\catalog\templates\catalog\book_detail.html:7
+msgid "Summary"
+msgstr ""
+
+#: .\catalog\templates\catalog\book_detail.html:8
+msgid "ISBN"
+msgstr ""
+
+#: .\catalog\templates\catalog\book_detail.html:10
+msgid "Genre"
+msgstr ""
+
+#: .\catalog\templates\catalog\book_detail.html:13
+#: .\catalog\templates\index.html:14
+msgid "Copies"
+msgstr ""
+
+#: .\catalog\templates\catalog\book_detail.html:23
+msgid "Due to be returned"
+msgstr ""
+
+#: .\catalog\templates\catalog\book_detail.html:25
+msgid "Imprint"
+msgstr ""
+
+#: .\catalog\templates\catalog\book_detail.html:26
+msgid "Id"
+msgstr ""
+
+#: .\catalog\templates\catalog\book_list.html:5
+msgid "Book List"
+msgstr ""
+
+#: .\catalog\templates\catalog\book_list.html:15
+msgid "There are no books in the library."
 msgstr ""
 
 #: .\catalog\templates\index.html:5
@@ -67,14 +152,6 @@ msgstr ""
 msgid "The library has the following record counts:"
 msgstr ""
 
-#: .\catalog\templates\index.html:13
-msgid "Books"
-msgstr ""
-
-#: .\catalog\templates\index.html:14
-msgid "Copies"
-msgstr ""
-
 #: .\catalog\templates\index.html:15
 msgid "Copies available"
 msgstr ""
@@ -84,9 +161,9 @@ msgid "Authors"
 msgstr ""
 
 #: .\locallibrary\settings.py:119
-msgid "English"
+msgid "Vietnamese"
 msgstr ""
 
 #: .\locallibrary\settings.py:120
-msgid "Vietnamese"
+msgid "English"
 msgstr ""

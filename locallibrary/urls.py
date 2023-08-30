@@ -11,6 +11,8 @@ urlpatterns = [
     path('', RedirectView.as_view(url='catalog/')),
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
 
+
 urlpatterns += i18n_patterns(
     path('catalog/', include('catalog.urls')),
+    path('admin/', admin.site.urls),
 )
