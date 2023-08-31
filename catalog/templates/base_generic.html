@@ -38,6 +38,13 @@
                             <li><a href="{% url 'index' %}">{% translate "Home" %}</a></li>
                             <li><a href="{% url 'books' %}">{% translate "All books" %}</a></li>
                             <li><a href="{% url 'authors' %}">{% translate "All authors" %}</a></li>
+                            {% if user.is_authenticated %}
+                                <li>{% translate "User" %}: {{ user.get_username }}</li>
+                                <li><a href="{% url 'my-borrowed' %}">{% translate "My Borrowed" %}</a></li>
+                                <li><a href="{% url 'logout'%}?next={{request.path}}">{% translate "Logout" %}</a></li>
+                            {% else %}
+                                <li><a href="{% url 'login'%}?next={{request.path}}">{% translate "Login" %}</a></li>
+                            {% endif %}
                         </ul>
                     {% endblock %}
                 </div>
