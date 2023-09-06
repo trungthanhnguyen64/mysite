@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-29 12:52+0700\n"
+"POT-Creation-Date: 2023-08-30 16:39+0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,6 +17,18 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\catalog\forms.py:7
+msgid "Enter a date between now and 4 weeks (default 3)."
+msgstr ""
+
+#: .\catalog\forms.py:13
+msgid "Invalid date - renewal in past"
+msgstr ""
+
+#: .\catalog\forms.py:17
+msgid "Invalid date - renewal more than 4 weeks ahead"
+msgstr ""
 
 #: .\catalog\models.py:13
 msgid "Enter a book genre (e.g.Science Fiction)"
@@ -97,6 +109,18 @@ msgstr ""
 msgid "Login"
 msgstr ""
 
+#: .\catalog\templates\catalog\author_confirm_delete.html:5
+msgid "Delete Author"
+msgstr ""
+
+#: .\catalog\templates\catalog\author_confirm_delete.html:6
+msgid "Are you sure you want to delete the author:"
+msgstr ""
+
+#: .\catalog\templates\catalog\author_confirm_delete.html:10
+msgid "Yes, delete."
+msgstr ""
+
 #: .\catalog\templates\catalog\author_detail.html:5
 #: .\catalog\templates\catalog\book_detail.html:6
 msgid "Author"
@@ -110,17 +134,38 @@ msgstr ""
 msgid "Date of Death"
 msgstr ""
 
-#: .\catalog\templates\catalog\author_detail.html:12
+#: .\catalog\templates\catalog\author_detail.html:11
+msgid "Biography"
+msgstr ""
+
+#: .\catalog\templates\catalog\author_detail.html:14
 #: .\catalog\templates\index.html:13
 msgid "Books"
+msgstr ""
+
+#: .\catalog\templates\catalog\author_form.html:10
+#: .\catalog\templates\catalog\book_renew_librarian.html:17
+msgid "Submit"
 msgstr ""
 
 #: .\catalog\templates\catalog\author_list.html:5
 msgid "Author List"
 msgstr ""
 
-#: .\catalog\templates\catalog\author_list.html:13
+#: .\catalog\templates\catalog\author_list.html:11
+msgid "Update"
+msgstr ""
+
+#: .\catalog\templates\catalog\author_list.html:12
+msgid "Delete"
+msgstr ""
+
+#: .\catalog\templates\catalog\author_list.html:17
 msgid "There are no authors in the library."
+msgstr ""
+
+#: .\catalog\templates\catalog\author_list.html:19
+msgid "Create"
 msgstr ""
 
 #: .\catalog\templates\catalog\book_detail.html:5
@@ -164,11 +209,24 @@ msgstr ""
 msgid "There are no books in the library."
 msgstr ""
 
+#: .\catalog\templates\catalog\book_renew_librarian.html:5
+#: .\catalog\templates\catalog\bookinstance_list_borrowed_user.html:11
+msgid "Renew"
+msgstr ""
+
+#: .\catalog\templates\catalog\book_renew_librarian.html:6
+msgid "Borrower"
+msgstr ""
+
+#: .\catalog\templates\catalog\book_renew_librarian.html:9
+msgid "Due date"
+msgstr ""
+
 #: .\catalog\templates\catalog\bookinstance_list_borrowed_user.html:5
 msgid "Borrowed books"
 msgstr ""
 
-#: .\catalog\templates\catalog\bookinstance_list_borrowed_user.html:15
+#: .\catalog\templates\catalog\bookinstance_list_borrowed_user.html:17
 msgid "There are no books borrowed."
 msgstr ""
 

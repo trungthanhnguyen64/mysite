@@ -6,10 +6,15 @@
     {% if author_list %}
     <ul>
         {% for author in author_list %}
-            <li><a href="{{ author.get_absolute_url }}">{{ author.first_name }} {{ author.last_name }}</a></li>
+            <li>
+                <a href="{{ author.get_absolute_url }}">{{ author.first_name }} {{ author.last_name }}</a>
+                <a href="{% url 'author-update' author.pk %}">{% trans "Update" %}</a>
+                <a href="{% url 'author-delete' author.pk %}">{% trans "Delete" %}</a>
+            </li>
         {% endfor %}
     </ul>
     {% else %}
         <p>{% trans "There are no authors in the library." %}</p>
     {% endif %}
+    <a href="{% url 'author-create' %}">{% trans "Create" %}</a>
 {% endblock %}
